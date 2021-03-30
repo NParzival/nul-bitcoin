@@ -1,0 +1,173 @@
+body{
+	background: rgb(170,180,14);
+	background: linear-gradient(90deg, rgba(170,180,14,1) 18%, rgba(212,215,46,1) 47%, rgba(215,213,46,1) 56%, rgba(255,154,0,1) 100%);
+	width: auto;
+
+}
+
+.ligne{
+
+	margin-top: 5px;
+}
+.header {
+	display: flex;
+	justify-content: center;
+
+
+
+}
+.logo{
+	width: 200px;
+	height: 112px;
+	border:solid red 1px;
+	
+	
+
+
+
+}
+
+.titre{
+	
+	position: center;
+	color:black;
+	
+	font-family: sans-serif;
+	font-size: 40px;
+	border:solid red 1px;
+}
+
+
+}
+.texte{
+	font-family: sans-serif;
+	color: black;
+}
+
+
+
+/* Menu de navigation */
+.menu{
+	display: flex;
+	
+	padding: 0;
+	justify-content: center;
+	
+}
+.menu li{
+	list-style-type: none;
+}
+.menu a{
+
+	display: block;
+	min-width: 120px;
+	text-align: center;
+	font-weight: bold;
+
+	margin: 0.5rem;
+	padding: 0.4rem 0;
+	
+	
+	
+	text-decoration: none; 
+	
+	
+}
+.menu a:hover{
+	
+	color:black;
+	text-decoration: underline 3px;
+
+	
+	animation-name: underline_;
+	animation-duration: 2s;
+	animation-iteration-count: 1;
+
+}
+@keyframes underline_{
+
+	from{
+		text-decoration: underline 3px;
+	}
+	to{
+		text-decoration: underline 5px;
+	}
+}
+
+
+.debut{
+	display: flex;
+	
+	
+	
+	background-color: white;
+	justify-content: center;
+	align-items: center;
+	width: 300px;
+
+	
+	max-width: 700px;
+	border-radius: 8px;
+	box-shadow: 5px 7px 11px 7px rgba(0,0,0,0.67);
+
+
+}
+/*.debut:hover{
+    
+    animation-name: shawdow;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    
+
+}
+@keyframes shawdow{
+	0%{
+
+	}
+	50%{
+		box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.67);
+	}
+	100%{
+
+	}
+}*/
+/*.debut:hover{
+    
+    width: 600px;
+    
+    height: 600px;
+
+}*/
+.ovale {
+    width: 60px;
+    height: 40px;
+    border-radius: 60px / 40px;
+    
+    height: 3%;
+    position: relative;
+    /* Safari et Chrome */
+    background-color: white;
+    -webkit-transform: translateY(30px);
+
+}
+.ovale:hover{
+	animation-name: grossisemnt;
+	animation-duration: 1s;
+}
+
+@keyframes grossisemnt{
+	0%{
+		background-color: red;
+	}
+
+	
+	100%{
+
+	}
+
+
+}
+
+.carre{
+	background-color: red;
+}
