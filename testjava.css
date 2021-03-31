@@ -5,7 +5,7 @@ body{
 
 }
 
-.ligne{
+/*.ligne{
 
 	margin-top: 5px;
 }
@@ -46,7 +46,7 @@ body{
 
 
 
-/* Menu de navigation */
+
 .menu{
 	display: flex;
 	
@@ -130,14 +130,14 @@ body{
 	100%{
 
 	}
-}*/
-/*.debut:hover{
+}
+.debut:hover{
     
     width: 600px;
     
     height: 600px;
 
-}*/
+}
 .ovale {
     width: 60px;
     height: 40px;
@@ -145,7 +145,7 @@ body{
     
     height: 3%;
     position: relative;
-    /* Safari et Chrome */
+    
     background-color: white;
     -webkit-transform: translateY(30px);
 
@@ -171,3 +171,4 @@ body{
 .carre{
 	background-color: red;
 }
+/*
