@@ -5,7 +5,7 @@ body{
 
 }
 
-/*.ligne{
+.ligne{
 
 	margin-top: 5px;
 }
@@ -131,6 +131,7 @@ body{
 
 	}
 }
+*/
 .debut:hover{
     
     width: 600px;
@@ -171,4 +172,3 @@ body{
 .carre{
 	background-color: red;
 }
-/*
